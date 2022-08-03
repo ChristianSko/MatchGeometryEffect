@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7E76F1A8289A52C40021ED6E /* MatchGeometryEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E76F1A7289A52C40021ED6E /* MatchGeometryEffectApp.swift */; };
-		7E76F1AA289A52C40021ED6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E76F1A9289A52C40021ED6E /* ContentView.swift */; };
+		7E76F1AA289A52C40021ED6E /* MatchedGeometryEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E76F1A9289A52C40021ED6E /* MatchedGeometryEffectView.swift */; };
 		7E76F1AC289A52C70021ED6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E76F1AB289A52C70021ED6E /* Assets.xcassets */; };
 		7E76F1AF289A52C70021ED6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E76F1AE289A52C70021ED6E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		7E76F1A4289A52C30021ED6E /* MatchGeometryEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchGeometryEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E76F1A7289A52C40021ED6E /* MatchGeometryEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchGeometryEffectApp.swift; sourceTree = "<group>"; };
-		7E76F1A9289A52C40021ED6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E76F1A9289A52C40021ED6E /* MatchedGeometryEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectView.swift; sourceTree = "<group>"; };
 		7E76F1AB289A52C70021ED6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E76F1AE289A52C70021ED6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				7E76F1A7289A52C40021ED6E /* MatchGeometryEffectApp.swift */,
-				7E76F1A9289A52C40021ED6E /* ContentView.swift */,
+				7E76F1A9289A52C40021ED6E /* MatchedGeometryEffectView.swift */,
 				7E76F1AB289A52C70021ED6E /* Assets.xcassets */,
 				7E76F1AD289A52C70021ED6E /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E76F1AA289A52C40021ED6E /* ContentView.swift in Sources */,
+				7E76F1AA289A52C40021ED6E /* MatchedGeometryEffectView.swift in Sources */,
 				7E76F1A8289A52C40021ED6E /* MatchGeometryEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

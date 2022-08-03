@@ -11,7 +11,7 @@ import SwiftUI
 struct MatchGeometryEffectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MatchedGeometryEffectView2()
         }
     }
 }
