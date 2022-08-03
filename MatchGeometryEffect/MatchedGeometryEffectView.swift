@@ -29,8 +29,7 @@ struct MatchedGeometryEffectView: View {
             if isClicked {
                 RoundedRectangle(cornerRadius: 25)
                     .matchedGeometryEffect(id: "rectangle", in: namespace)
-                    .frame(width: 35, height: 2)
-                    .offset(y: 10)
+                    
                     
             }
             
@@ -67,9 +66,12 @@ struct MatchedGeometryEffectView2: View {
                     RoundedRectangle(cornerRadius: 10)
                         .fill(.red).opacity(0.5)
                         .matchedGeometryEffect(id: "category_background", in: namespace2)
+                        .frame(width: 35, height: 2)
+                        .offset(y: 10)
                     }
                     
                     Text(category)
+                        .foregroundColor(selected == category ? .red : .black)
                 }
                 .frame(maxWidth: .infinity)
                 .frame(height: 55)
